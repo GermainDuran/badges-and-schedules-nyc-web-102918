@@ -6,12 +6,10 @@ end
 
 def batch_badge_creator(array)
   badges_messages=[]
-  loop do
-    attendees.each { |name| list_of_badges << "Hello, my name is #{name}."}
+ 
+  array.each { |name| badges_messages << "Hello, my name is #{name}."}
     
-    list_of_badges = []
-  
-  list_of_badges
+  badges_messages
     
 end 
 
