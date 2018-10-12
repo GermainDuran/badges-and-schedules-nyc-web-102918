@@ -5,8 +5,13 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  conference_of_speakers=[]
+  badges_messages=[]
   loop do
+    
+    
+    list_of_badges = []
+  attendees.each { |name| list_of_badges << "Hello, my name is #{name}."}
+  list_of_badges
     
 end 
 
